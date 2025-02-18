@@ -16,9 +16,9 @@ while (chute != numeroSecreto){
     break;
     } else {
          if(chute > numeroSecreto){
-    alert(`O número secreto é menor que ${chute}`);
+    alert(`O número secreto é menor que ${chute}!`);
    }      else {
-    alert(`O número secreto é maior que ${chute}`)
+    alert(`O número secreto é maior que ${chute}!`)
     }
 
     //tentativas = tentativas + 1;
@@ -27,7 +27,7 @@ while (chute != numeroSecreto){
 
 }
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
-alert (`Isso aí!Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}.`);
+alert (`Isso aí!Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}!`);
 //if (tentativas > 1){
   //alert(`Isso aí!Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas`);
    
